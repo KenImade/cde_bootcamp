@@ -15,6 +15,8 @@ This project implements an ETL (Extract, Transform, Load) process for managing d
 
 ## How to Run
 
+Change directory into the `Scripts` folder.
+
 ### ETL Process
 1. Make the script executable: `chmod +x etl_script.sh`
 2. Run the script: `./etl_script.sh`
