@@ -28,9 +28,4 @@ This project implements an ETL (Extract, Transform, Load) process for managing d
 2. Run the script: `./load_csv_to_postgres.sh`
 
 ## Architectural Diagram
-(Insert your ETL pipeline diagram here)
-
-## Notes
-- Ensure the CSV file URL is correctly set in `etl_script.sh`.
-- Update database connection details as needed in `load_csv_to_postgres.sh`.
-- Replace placeholder paths and table names with actual values.
+![ETL Process](./etl_process.png)
