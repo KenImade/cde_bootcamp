@@ -1,0 +1,2 @@
+# Command to run ETL script every midnight
+0 0 * * * /home/kenneth/cde_bootcamp/linux_git/etl_script.sh

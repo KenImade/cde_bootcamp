@@ -19,13 +19,6 @@ This project implements an ETL (Extract, Transform, Load) process for managing d
 1. Make the script executable: `chmod +x etl_script.sh`
 2. Run the script: `./etl_script.sh`
 
-### Scheduling ETL Process
-1. Edit the crontab file: `crontab -e`
-2. Add the following line to run the script daily at midnight:
-    ```
-    0 0 * * * /path/to/your/etl_script.sh
-    ```
-
 ### Moving Files
 1. Make the script executable: `chmod +x move_files.sh`
 2. Run the script: `./move_files.sh`
